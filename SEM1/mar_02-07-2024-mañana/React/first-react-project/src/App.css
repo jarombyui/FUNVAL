@@ -1,0 +1,68 @@
+aside{
+  border: solid orange 3px;
+  width: 18rem;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+
+aside figure {
+  width: 120px;
+  height: 120px;
+  border: solid blue 1px;
+  border-radius: 100%;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+aside img {
+  width: 100%;
+  height: 100%;
+
+}
+
+aside ul {
+  margin-bottom: 1.5rem;
+}
+
+.right {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  border: solid pink 3px;
+  border-radius: .5rem;
+  padding: 1rem 1.2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.2rem;
+}
+
+main{
+  width: 100%;
+  padding: 1rem;
+  border: solid 3px darkcyan;
+  border-radius: .5rem;
+  margin-top: 2rem;
+  flex-grow: 1;
+  max-height: 521px;
+}
+
+main h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main ul {
+  margin-bottom: 1rem;
+}
+
